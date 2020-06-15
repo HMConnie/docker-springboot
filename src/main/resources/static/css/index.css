@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hello{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
