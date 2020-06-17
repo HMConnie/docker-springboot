@@ -58,5 +58,5 @@ docker run -e DEV_DB='jdbc:mysql://172.18.0.3:3306/ApolloConfigDB?characterEncod
 ```
 
 ## 8,发布到AliYun的Center OS云服务器中
-  1.右侧选择maven > Lifecyle > install > target目录成的xx.jar文件
-  2.点击右上角，build dockerfile
+  1. 右侧选择maven > Lifecyle > install > target目录成的xx.jar文件
+  2. 点击右上角，build dockerfile
