@@ -55,7 +55,6 @@ docker run -e DEV_DB='jdbc:mysql://172.18.0.3:3306/ApolloConfigDB?characterEncod
  -v /docker/apollo/logs/100003172:/opt/logs/100003172  \
  -v /docker/apollo/logs/100003173:/opt/logs/100003173  \
  --name apollo docker-apollo:0615071417
-export DOCKER_CONFIG_CENTER_URL=http://localhost:8080
 ```
 
 ## 8,发布到AliYun的Center OS云服务器中
