@@ -22,7 +22,7 @@
   # 运行jar包
   ENTRYPOINT ["java","-jar","/app.jar"]
   ```
-## 5,进入Portainer docker图像化web服务系统
+## 5,进入Portainer(备注:docker图形化界面,此处不解释安装过程)
    ```sh
   启动命令:docker run -d -p 9000:9000 --restart=always   -v /var/run/docker.sock:/var/run/docker.sock --name docker-portainer  registry.cn-beijing.aliyuncs.com/yanxj-88/portainer:latest 
    ```
